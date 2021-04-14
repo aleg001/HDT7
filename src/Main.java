@@ -8,10 +8,7 @@
 * Ultima edicion: 09-04-21
 ********************************************************/
 
-// Se declaran imports
-import java.io.File;
-import java.util.ArrayList;
-import java.util.Scanner;
+// Se define el main
 
 public class Main {
     public static void main(String[] args){ 

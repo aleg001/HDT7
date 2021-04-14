@@ -25,7 +25,6 @@ public class Controlador {
         // Se declaran instancias y variables
         Vista v = new Vista();
         BinaryTree BT = new BinaryTree();
-        int OpcionesParaMenu = 0;
         ArrayList<String> TextoEnArchivo = new ArrayList<>();
         Scanner s = new Scanner(System.in);
         String StringNameFile = "";

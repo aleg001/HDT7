@@ -54,44 +54,16 @@ public class Vista {
             } else {}
         } return op;
         
+
+    /**
+     * Metodo de OperationalResultInString
+     * @param n/a
+     * @author Alejandro Gomez
+     * @return n/a
+     **/
     }
     public void OperationalResultInString(String x){
         System.out.println(x);
-    }
-
-
-    public void FileName(){
-        System.out.println("\nDICCIONARIO A UTILIZAR\n");
-        System.out.println("Ingrese el nombre del archivo que desea leer (.txt) soalmente");
-        System.out.println("Tip: Ingrese diccionario.txt jeje");
-    }
-
-    public void Palabras(String Palabrajeje){
-        System.out.println("El texto a analizar corresponde a: " + Palabrajeje);
-    }
-
-    public void OrdenarDic(){
-        System.out.println("\n\nA continuacion se muestra el diccionario en orden (original)\n");
-    }
-
-    public void FileName1(){
-        System.out.println(" \nTEXTO A TRADUCIR\n");
-        System.out.println("Ingrese el nombre del archivo que desea leer (.txt) soalmente");
-        System.out.println("Tip: Ingrese traduccion.txt jeje");
-    }
-
-    public String Archivo(){
-        return scan.next();
-    }
-
-    public void Lineas(){
-        System.out.println("RESULTADOS DE TRADUCCION");
-        System.out.println("--------------------------------------------------------");
-        
-    }
-
-    public void Impresion(String XD){
-        System.out.println(XD);
     }
 
     /**
@@ -209,6 +181,42 @@ public class Vista {
     }
 
 }
+
+
+public void FileName(){
+    System.out.println("\nDICCIONARIO A UTILIZAR\n");
+    System.out.println("Ingrese el nombre del archivo que desea leer (.txt) soalmente");
+    System.out.println("Tip: Ingrese diccionario.txt jeje");
+}
+
+public void Palabras(String Palabrajeje){
+    System.out.println("El texto a analizar corresponde a: " + Palabrajeje);
+}
+
+public void OrdenarDic(){
+    System.out.println("\n\nA continuacion se muestra el diccionario en orden (original)\n");
+}
+
+public void FileName1(){
+    System.out.println(" \nTEXTO A TRADUCIR\n");
+    System.out.println("Ingrese el nombre del archivo que desea leer (.txt) soalmente");
+    System.out.println("Tip: Ingrese traduccion.txt jeje");
+}
+
+public String Archivo(){
+    return scan.next();
+}
+
+public void Lineas(){
+    System.out.println("RESULTADOS DE TRADUCCION");
+    System.out.println("--------------------------------------------------------");
+    
+}
+
+public void Impresion(String XD){
+    System.out.println(XD);
+}
+
 
     public void Despedida() {
     System.out.println("Gracias por usar el diccionario. Feliz dia. \n Creado por: Alejandro Gomez");

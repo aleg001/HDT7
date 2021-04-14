@@ -76,6 +76,7 @@ public class BinaryTree {
         return root;
     }
  
+    // Metodo para devolverlo ordenado.
     void Ordenado()
     { MostrarBSTOrdenado(root); }
  
