@@ -5,7 +5,7 @@
 * Vista.java
 * Autor: Alejandro Gomez
 * Fecha de creacion: 09-04-21
-* Ultima edicion: 09-04-21
+* Ultima edicion: 13-04-21
 ********************************************************/
 
 /**
@@ -43,7 +43,7 @@ public class Vista {
         int op = 2;
         String ops = "";
         boolean validar = true;
-        System.out.println("\n1. Usar diccionario");
+        System.out.println("\n1. Usar traductor");
         System.out.println("2. Salir\n");
         while(validar == true){
             System.out.println("Ingrese su opcion:  ");
@@ -67,17 +67,31 @@ public class Vista {
     }
 
     public void Palabras(String Palabrajeje){
-        System.out.println("La palabra ingresada es:  " + Palabrajeje);
+        System.out.println("El texto a analizar corresponde a: " + Palabrajeje);
+    }
+
+    public void OrdenarDic(){
+        System.out.println("\n\nA continuacion se muestra el diccionario en orden (original)\n");
     }
 
     public void FileName1(){
-        System.out.println(" \n TEXTO A TRADUCIR\n");
+        System.out.println(" \nTEXTO A TRADUCIR\n");
         System.out.println("Ingrese el nombre del archivo que desea leer (.txt) soalmente");
         System.out.println("Tip: Ingrese traduccion.txt jeje");
     }
 
     public String Archivo(){
         return scan.next();
+    }
+
+    public void Lineas(){
+        System.out.println("RESULTADOS DE TRADUCCION");
+        System.out.println("--------------------------------------------------------");
+        
+    }
+
+    public void Impresion(String XD){
+        System.out.println(XD);
     }
 
     /**
@@ -102,10 +116,11 @@ public class Vista {
         int op = 3;
         String ops = "";
         boolean validar = true;
-        System.out.println("\nCual implementacion usara?");
-        System.out.println("1. HashMap");
-        System.out.println("2. TreeMap");
-        System.out.println("3. Salir\n");
+        System.out.println("\nCual lenguaje desea utilizar?");
+        System.out.println("1. Ingles");
+        System.out.println("2. Espanol");
+        System.out.println("3. Frances\n");
+        System.out.println("4. Salir\n");
         while(validar == true){
             System.out.println("Ingrese su opcion:  ");
             ops = scan.next();
@@ -194,5 +209,14 @@ public class Vista {
     }
 
 }
+
+    public void Despedida() {
+    System.out.println("Gracias por usar el diccionario. Feliz dia. \n Creado por: Alejandro Gomez");
+    }
+
+    public void Iniciando()
+    {
+        System.out.println("Iniciando diccionario... paciencia :o");
+    }
 }
 
